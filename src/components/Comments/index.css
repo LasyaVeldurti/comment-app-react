@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.bg-container {
+  padding: 50px;
+  height: 100vh;
+  font-family: roboto;
+}
+.ui-container {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .ui-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .comments-img {
+    order: 0;
+  }
+  .input-container {
+    order: 1;
+  }
+}
+.form-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heading {
+  color: #1e293b;
+}
+.caption {
+  color: #334155;
+}
+.input-comment {
+  color: #334155;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: 1px #64748b;
+}
+.comment-area {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.comments-img {
+  width: 350px;
+  height: 350px;
+  order: 1;
+}
+.add-comment {
+  width: 40%;
+  background-color: #0284c7;
+  padding: 15px;
+  border-radius: 5px;
+  border-style: none;
+  color: #ffffff;
+}
+.horizontal-line {
+  color: #222222;
+  margin-top: 30px;
+}
+.comment-container {
+  list-style-type: none;
+  padding: 30px;
+}
+.comment-button {
+  border-style: none;
+  width: 50px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 24px;
+  border-radius: 5px;
+  background-color: #0ea5e9;
+  border-style: none;
+}
+.comment-count-contianer {
+  display: flex;
+  padding: 40px;
+}
+.count {
+  padding-left: 10px;
+  color: #475569;
+  font-size: 18px;
+}
